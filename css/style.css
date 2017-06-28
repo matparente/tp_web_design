@@ -1,0 +1,145 @@
+/* FONTS embebed
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	margin: auto;
+	max-width: 960px;
+	overflow: auto;
+}
+
+.centrar {
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+}
+
+.titulo {
+	text-align: center;
+	
+	
+}
+
+.titulo h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 50px; 
+	text-transform: uppercase;
+	color: #465362;
+	margin: 20px 0px;
+}
+
+/* HEADER */
+
+.principio {
+	background-image: url("../images/bg-header.jpg");
+	background-repeat: no-repeat;
+}
+
+.blacktr{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+	float: left;
+}
+
+.logo img{
+	max-width: 60%;
+}
+
+.accesos {
+	float: right;	
+}
+
+.accesos a {
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+
+.accesos a:hover {
+	color: #f9dc5c;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.menu li {
+	padding: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.main {
+	padding: 70px 0px;	
+	display: flex;
+	justify-content: flex-start;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 70px; 
+	color: white;	
+	text-shadow: 3px 3px 2px black;
+}
+
+.txt-ppal {
+	max-width: 50%;
+	padding-right: 50px;
+
+}
+
+/* Sección SERVICIOS */
+
+.servicios {
+	text-align: center;
+	font-size: 13px;
+    line-height: 22px;
+	display: flex;
+	flex-direction: row;
+	background: blue;
+}
+
+.servicios h4 {
+	font-size: 28px;
+	letter-spacing: -1px;
+}
+
+.servicio01 {
+	background: #fdbc3c;
+	flex-direction: column;
+	flex: 1;
+	padding: 10px 20px;
+}
+
+.servicio02 {
+	background: #f9dc5c;
+	flex-direction: column;
+	flex: 1;
+	padding: 10px 20px;
+}
+
+.servicio03 {
+	background: #f4fffd;
+	flex-direction: column;
+	flex: 1;
+	padding: 10px 20px;
+}
+
+.icono{
+	font-size: 100px;
+	color: black;
+}
