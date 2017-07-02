@@ -9,6 +9,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+ul{
+	list-style-type: none;	
+}
+
 .contenedor {
 	margin: auto;
 	max-width: 960px;
@@ -22,9 +26,7 @@ body {
 }
 
 .titulo {
-	text-align: center;
-	
-	
+	text-align: center;	
 }
 
 .titulo h2{
@@ -33,10 +35,10 @@ body {
 	font-size: 50px; 
 	text-transform: uppercase;
 	color: #465362;
-	margin: 20px 0px;
+	margin: 0px;
+	padding: 20px 0;
 }
 
-/* HEADER */
 
 .principio {
 	background-image: url("../images/bg-header.jpg");
@@ -110,7 +112,6 @@ h1 {
     line-height: 22px;
 	display: flex;
 	flex-direction: row;
-	background: blue;
 }
 
 .servicios h4 {
@@ -143,3 +144,112 @@ h1 {
 	font-size: 100px;
 	color: black;
 }
+
+/* Sección SOBRE NOS*/
+
+.sobrenos {
+	text-align: center;
+	font-size: 13px;
+    line-height: 22px;
+	display: flex;
+	flex-direction: row;
+}
+
+/*.sobrenos-foto01 {
+	background-image: url("../images/snos01.png");
+	overflow: auto;
+	flex: 1;
+}*/
+
+.sobrenos-foto {
+	flex-grow: 1;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}	
+
+.sobrenos-txt {
+	flex-direction: column;
+	flex-grow: 2;
+	padding: 0;
+	text-align: left;
+	font-size: 15px;	
+}
+
+.sobrenos-txt ul li{
+	padding-bottom: 10px;
+}
+
+.sobrenos span {
+	font-size: 30px;
+	color: #fdbc3c;
+}
+
+/* Sección METODOLOGIA*/
+
+.foto-section {
+	background-image: url("../images/bg-metodologia.jpg");
+	background-repeat: no-repeat;
+}
+
+.foto-section h2 {
+	color: white;
+	padding-top: 10px;
+}
+
+.metodologia {
+	text-align: center;
+	font-size: 13px;
+    line-height: 22px;
+	display: flex;
+	flex-direction: row;
+}
+
+.metodologia div {
+	flex-direction: column;
+	padding: 0;
+	text-align: left;
+	color: white;
+	font-size: 15px;	
+}
+
+.metodologia span {
+	font-size: 20px;
+	color: #fdbc3c;
+	padding-right: 5px;
+}
+
+/* Sección CONTATO*/
+
+.foto-section {
+	background-image: url("../images/bg-metodologia.jpg");
+	background-repeat: no-repeat;
+}
+
+.contato {
+	text-align: center;
+	font-size: 15px;
+    line-height: 22px;
+	display: flex;
+	flex-direction: row;
+}
+
+.contato ul li{
+	padding-bottom: 10px;
+	text-align: left;
+}
+.contato span {
+	font-size: 20px;
+	color: #fdbc3c;
+	padding-right: 5px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contato article {
+	flex: 1;
+}
+
